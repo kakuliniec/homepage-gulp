@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,152 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <h1>Hello world! Testowanko</h1>
-  <a href="testowy.html">testowy</a>
+  <header class="site-header">
+    <nav class="navigation">
+      <ul class="navigation__list navigation__list--js">
+        <li class="navigation__item"><a class="navigation__link" href="index.html">Strona główna</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="podstrona.html">Podstrona</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="podstrona.html">Podstrona 1 </a></li>
+        <li class="navigation__item"><a class="navigation__link" href="podstrona.html">Podstrona 2</a></li>
+
+      </ul>
+    </nav>
+    <button class="navigation__switcher navigation__switcher--js" aria-label="Otwórz menu">☰</button>
+
+  </header>
+  <main class="main" id="footerTop">
+    <header class="header">
+      <h1 class="main__header main__header--js">
+        Kaka Koko - Nauka frontendu
+      </h1>
+      <button class="main__button main__button--js">Zmień treść nagłówka</button>
+      <input class="focus">
+    </header>
+    <section class="about">
+      <div vclass="content">
+        <div class="box">test</div>
+        <h2 class="about__header">To ja: kakulec</h2>
+        <p class="about__paragraph">
+          <img src="assets/kakakoko.jpg" alt="kakulec" class="about__picture" /><br>
+          Przede wszystkim teraz uczennica Maćka. Moim celem jest nauka czegoś nowego i ciekawego, a jeśli nie
+          ogarnę, to na pewno będę się dobrze bawić. <br>
+          <a class="about__link" href="podstrona.html">Przejdź do artykułu o Kaka Koko</a>
+        </p>
+        <p class="about__paragraph about__paragraph--color about__paragraph--js"> Testuję modyfikator</p>
+
+        <section class="hobby">
+          <ul class="hobby__list">
+            <li>Szkolenie WTF</li>
+            <li>Podróże</li>
+            <li>Gra na flecie</li>
+
+          </ul>
+        </section>
+        <section class="plan">
+          <ol>
+            <li>Otworz przegladarke WTF</li>
+            <li>Wpisz wtf.pl</li>
+            <li>Wcisnij enter</li>
+
+          </ol>
+        </section>
+    </section>
+    <section id="Pamiętniczek" class="diary">
+      <h2 class="diary__Header">Pamiętniczek</h2>
+      <div class="grid">
+        <section class="day">
+          <h3 class="day__header">29 maja 2019</h3>
+          <p class="day__paragraph">
+            Pierwszy raz... Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates quae,
+            distinctio fugit cumque provident aut alias praesentium et nisi quod ut perspiciatis modi eum odit atque ex
+            sint hic?
+          </p>
+        </section>
+        <section>
+          <h3 class="day__header">30 maja 2019</h3>
+          <p class="day__paragraph"> Po spacerku... Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Exercitationem perferendis autem tenetur veniam aperiam hic dolor vero possimus, obcaecati quod excepturi
+            odio magnam placeat cumque, voluptatum molestias perspiciatis natus! Odio! </p>
+        </section>
+        <section>
+          <h3 class="day__header">31 maja 2019</h3>
+          <p class="day__paragraph"> Odrobiłam... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam maxime,
+            illum odit voluptas totam nostrum, soluta voluptates officia incidunt sint iusto veritatis quod eum
+            molestiae praesentium reprehenderit laboriosam autem vel? </p>
+        </section>
+        <section>
+          <h3 class="day__header">1 czerwca 2019</h3>
+          <p class="day__paragraph"> Dzień dziecka... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            beatae earum enim laudantium vero commodi doloribus. Consequatur rem laboriosam fuga autem ratione, soluta
+            sunt atque necessitatibus commodi doloremque illum alias. </p>
+        </section>
+        <section>
+          <h3 class="day__header">4 czerwca 2019</h3>
+          <p class="day__paragraph"> Ufff jak... Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iusto
+            iste magni similique nemo accusamus id dicta animi voluptate saepe, porro doloremque, molestiae deserunt
+            repudiandae consequatur inventore quas minus ipsa. <br>
+          </p>
+        </section>
+
+        <section>
+          <h3 class="day__header">7 czerwca 2019</h3>
+          <p class="day__paragraph"> Imieniny... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti illo
+            aperiam eaque distinctio inventore animi amet, tempore id est tempora quasi laborum vero necessitatibus quia
+            asperiores nam dicta a eos? <br>
+          </p>
+        </section>
+        <section>
+          <h3 class="day__header">8 czerwca 2019</h3>
+          <p class="day__paragraph"> Spędzam czas... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam,
+            soluta id? Nesciunt cum sapiente aut eligendi? Aliquid molestiae consectetur perferendis cum facilis
+            quisquam iusto eaque sint excepturi. Maxime, dolore! Velit! <br>
+          </p>
+        </section>
+      </div>
+
+      <section class="glossary">
+        <dl>
+          <dt>CSS</dt>
+          <dd>Style (to, co widzisz jak jest ładne albo brzydkie)</dd>
+          <dt>HTML</dt>
+          <dd>Treść plus szkielet strony</dd>
+        </dl>
+
+        <section class="data">
+          <table class="table">
+            <caption class="table__header">Oceny z WTF</caption>
+            <thead>
+              <tr>
+                <th>Imię, nazwisko</th>
+                <th>Ocena</th>
+                <th>Data</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Kaka Koko</td>
+                <td>4</td>
+                <td>25.06.2019</td>
+              </tr>
+              <tr>
+                <td>Olo Bolo</td>
+                <td>6</td>
+                <td>24.06.2019</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <a href="#footerTop" class="footer__top">Na górę</a>
+    Strona Kaki Koko, wszystkie treści są efektem szkolenia WTF: Co Ten Frontend.
+  </footer>
   <script src="js/main.js"></script>
 </body>
+
 </html>
