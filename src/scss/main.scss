@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css?family=Mukta:400,700|Pacifico&display=swap&subset=latin-ext');
 body {
   background: #dae2f8; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #d6a4a4, #dae2f8); /* Chrome 10-25, Safari 5.1-6 */
@@ -9,6 +9,7 @@ body {
     #d6a4a4,
     #dae2f8
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'mukta';
 }
 
 html {
@@ -27,6 +28,8 @@ html {
   
   &__header {
     color: rgb(0, 137, 190);
+    font-family: 'Pacifico', cursive;
+
   }
   &__link {
       color: rgb(240, 47, 108);
@@ -72,6 +75,8 @@ html {
 &__header {
   color: #FF729F;
   margin: 0 0 16px;
+  font-family: 'Pacifico', cursive;
+
 }
 &__header::after {
   content: " • ";
@@ -95,8 +100,9 @@ html {
 
 .diary {
   clear: both;
-  &__Header {
+  &__header {
   color:rgb(216, 129, 129);
+  font-family: 'Pacifico', cursive;
 }
 }
 
@@ -123,7 +129,8 @@ html {
   grid-row-gap: 16px;
 }
 .header {
-  grid-area: header; 
+  grid-area: header;
+   
 }
 
 .hobby {
@@ -148,9 +155,10 @@ html {
   color: #30011E;
   margin-bottom: 25px;
   grid-area: header;
+  font-family: 'Pacifico', cursive;
   &--pink {
   color: #FF729F;
-}
+  }
 }
 }
 @media (max-width: 640px) {
