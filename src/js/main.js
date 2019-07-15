@@ -92,36 +92,65 @@
 //     navigationList.classList.toggle('navigation__list--visable');
 // })
 
-const faces = ['😎', '😱', '😱', 'test'];
-for (let i = 0; i < faces.length; i++) {
-    console.log(`i: ${i}`);
- console.log(`na miejscu ${i+1} jest ${faces[i]}`);
+// const faces = ['😎', '😱', '😱', 'test'];
+// for (let i = 0; i < faces.length; i++) {
+//     console.log(`i: ${i}`);
+//  console.log(`na miejscu ${i+1} jest ${faces[i]}`);
+// }
+
+// let a = 10;
+
+// while (a >0) {
+//     a--;
+//     console.log(a);
+// }
+
+
+// let n = 9;
+// do {
+//  console.log(n);
+//  n = n + 3;
+// } while (n < 9);
+// console.log(n)
+
+// const person = {
+//     name: 'kaka',
+//     age: 33
+//    }
+//    for (let propertyName in person) {
+//     console.log(`${propertyName}: ${person[propertyName]}`);
+//    }
+
+//    const elements = ['😎', '🤯', '😱'];
+// for (let element of elements) {
+//  console.log(element);
+// }
+
+// const person = {
+//     name: 'kaka',
+//     age: 33
+//     } 
+
+//     console.log(person);
+
+// const jsonPErson = JSON.stringify(person);
+
+// console.log(jsonPErson);
+
+// //localStorage.setItem('person', jsonPErson);
+
+// //console.log(localStorage.getItem('person'));
+
+// const personStringify = localStorage.getItem('person');
+// const newPerson = JSON.parse(personStringify);
+// console.log(newPerson);
+
+const focusInput = document.querySelector('.focus--js');
+
+if (localStorage.getItem('focusInput').length > 0) {
+    focusInput.value = localStorage.getItem('focusInput');
 }
 
-let a = 10;
-
-while (a >0) {
-    a--;
-    console.log(a);
-}
-
-
-let n = 9;
-do {
- console.log(n);
- n = n + 3;
-} while (n < 9);
-console.log(n)
-
-const person = {
-    name: 'maciek',
-    age: 31
-   }
-   for (let propertyName in person) {
-    console.log(`${propertyName}: ${person[propertyName]}`);
-   }
-
-   const elements = ['😎', '🤯', '😱'];
-for (let element of elements) {
- console.log(element);
-}
+focusInput.addEventListener('keyup', (e) => {
+    localStorage.setItem('focusInput', e.target.value);
+});
