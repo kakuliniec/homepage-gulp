@@ -29,17 +29,14 @@ html {
   &__header {
     color: rgb(0, 137, 190);
     font-family: 'Pacifico', cursive;
-
   }
   &__link {
       color: rgb(240, 47, 108);
   font-size: 13px;
   }
-  
-  &__paragraph {
+    &__paragraph {
   padding: 16px;
   font-size: 20px;
-
 &--color {
   color: rgb(5, 93, 128);
   font-size: 13px;
@@ -50,8 +47,7 @@ html {
   display: block;
   float: left;
   margin: 0 16px 16px 0;
-}
-}
+}}
 
 .box, .boxtest {
   width: 100px;
@@ -67,7 +63,7 @@ html {
 .content {
   grid-area: content;
 }
-.day {
+.day
 
 &:first-child {
   background: rgb(235, 227, 227);
@@ -76,7 +72,6 @@ html {
   color: #FF729F;
   margin: 0 0 16px;
   font-family: 'Pacifico', cursive;
-
 }
 &__header::after {
   content: " • ";
@@ -103,8 +98,7 @@ html {
   &__header {
   color:rgb(216, 129, 129);
   font-family: 'Pacifico', cursive;
-}
-}
+}}
 
 .focus:focus {
   border: 3px solid #FF729F;
@@ -117,10 +111,9 @@ html {
   bottom: 25px;
   right: 10px;
   color: #30011E
-}
-}
+}}
 
-.glossary {}
+.glossary
 
 .grid {
   display: grid;
@@ -130,14 +123,13 @@ html {
 }
 .header {
   grid-area: header;
-   
-}
+  }
 
 .hobby {
   &__list {
   list-style: none;
-  padding: 0;}
-}
+  padding: 0;
+}}
 
 
 .main {
@@ -158,17 +150,15 @@ html {
   font-family: 'Pacifico', cursive;
   &--pink {
   color: #FF729F;
-  }
-}
-}
+  }}}
+
 @media (max-width: 640px) {
   .main {
       grid-template-areas: "header"
       "content"
       "about"        ;
       grid-template-columns: 1fr; 
-  }
-}
+  }}
 
 .navigation {
   &__item {
@@ -184,8 +174,7 @@ color: #D6A4A4;
 }
 &:visited {
 color: rgb(173, 166, 169);
-}
-}
+}}
 &__list {
   list-style: none;
   padding: 16px;
@@ -201,8 +190,7 @@ background: none;
 position: absolute;
 right: 16px;
 top: 16px;
-}
-}
+}}
 
 .site-header {
   position: fixed;
@@ -225,8 +213,7 @@ top: 16px;
   color: #30011E;
   font-size: 20px;
   font-weight: bold;
-}
-}
+}}
 
 @media not screen and (min-width: 640px) and (max-width: 1400px) {
   .grid {
@@ -234,8 +221,7 @@ top: 16px;
       }
       .day__link {
           color: #30011E;
-      }
-  }
+      }}
 
   @media (min-width: 641px) {
       .main {
@@ -243,8 +229,7 @@ top: 16px;
       }
       .navigation__switcher {
           display: none;
-      }
-  }
+      }}
 
   @media (max-width: 640px) {
       .navigation__list {
@@ -256,5 +241,4 @@ top: 16px;
       }
       .navigation_item {
           margin: 16px;
-      }
-  }
+      }}
