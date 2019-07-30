@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Mukta:400,700|Pacifico&display=swap&subset=latin-ext");
 html {
   line-height: 1.15;
   /* 1 */
@@ -317,7 +318,8 @@ body {
   background: -webkit-linear-gradient(left, #d6a4a4, #dae2f8);
   background: -o-linear-gradient(left, #d6a4a4, #dae2f8);
   background: linear-gradient(to right, #d6a4a4, #dae2f8);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'mukta'; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -335,7 +337,8 @@ html {
   position: relative;
   grid-area: about; }
   .about__header {
-    color: #0089be; }
+    color: #0089be;
+    font-family: 'Pacifico', cursive; }
   .about__link {
     color: #f02f6c;
     font-size: 13px; }
@@ -374,7 +377,8 @@ html {
 
 .day__header {
   color: #FF729F;
-  margin: 0 0 16px; }
+  margin: 0 0 16px;
+  font-family: 'Pacifico', cursive; }
 
 .day__header::after {
   content: " • ";
@@ -394,8 +398,9 @@ html {
 
 .diary {
   clear: both; }
-  .diary__Header {
-    color: #d88181; }
+  .diary__header {
+    color: #d88181;
+    font-family: 'Pacifico', cursive; }
 
 .focus:focus {
   border: 3px solid #FF729F; }
@@ -443,7 +448,8 @@ html {
     font-size: 25px;
     color: #30011E;
     margin-bottom: 25px;
-    grid-area: header; }
+    grid-area: header;
+    font-family: 'Pacifico', cursive; }
     .main__header--pink {
       color: #FF729F; }
 
