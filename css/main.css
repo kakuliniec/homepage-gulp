@@ -310,16 +310,8 @@ template {
   display: none; }
 
 body {
-  background: #dae2f8;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #d6a4a4, #dae2f8);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#d6a4a4), to(#dae2f8));
-  background: -webkit-linear-gradient(left, #d6a4a4, #dae2f8);
-  background: -o-linear-gradient(left, #d6a4a4, #dae2f8);
-  background: linear-gradient(to right, #d6a4a4, #dae2f8);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'mukta'; }
+  background: #d4d2d2;
+  font-family: 'Pacifico'; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -413,6 +405,7 @@ html {
     right: 10px;
     color: #30011E; }
 
+.glossary
 .grid {
   display: -ms-grid;
   display: grid;
