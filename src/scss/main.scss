@@ -2,8 +2,8 @@
 @import "_variables";
 @import url('https://fonts.googleapis.com/css?family=Mukta:400,700|Pacifico&display=swap&subset=latin-ext');
 body {
-  background: rgb(212, 210, 210)
-  font-family: 'mukta';
+  background: rgb(212, 210, 210);
+  font-family: 'Pacifico';
 }
 
 html {
@@ -57,7 +57,7 @@ html {
 .content {
   grid-area: content;
 }
-.day
+.day {
 
 &:first-child {
   background: rgb(235, 227, 227);
@@ -82,10 +82,8 @@ html {
   height: 16px;
   border-radius: 50%;
   margin-right: 5px;
-  }
-&__link {}
-&__paragraph {}
-}
+  }}
+
 
 .diary {
   clear: both;

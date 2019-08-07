@@ -147,9 +147,9 @@
 
 const focusInput = document.querySelector('.focus--js');
 
-if (localStorage.getItem('focusInput').length > 0) {
-    focusInput.value = localStorage.getItem('focusInput');
-}
+//if (localStorage.getItem('focusInput').length > 0) {
+//    focusInput.value = localStorage.getItem('focusInput');
+//}
 
 focusInput.addEventListener('keyup', (e) => {
     localStorage.setItem('focusInput', e.target.value);
