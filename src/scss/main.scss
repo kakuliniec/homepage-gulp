@@ -2,8 +2,9 @@
 @import "_variables";
 @import url('https://fonts.googleapis.com/css?family=Mukta:400,700|Pacifico&display=swap&subset=latin-ext');
 body {
-  background: rgb(212, 210, 210);
+  background: rgb(255, 255, 255);
   font-family: 'Pacifico';
+  fontisize: 16px;
 }
 
 html {
@@ -21,7 +22,7 @@ html {
   grid-area: about; 
   
   &__header {
-    color: rgb(0, 137, 190);
+    color: #FF729F;
     font-family: 'Pacifico', cursive;
   }
   &__link {
@@ -88,7 +89,7 @@ html {
 .diary {
   clear: both;
   &__header {
-  color:rgb(216, 129, 129);
+  color:#FF729F;
   font-family: 'Pacifico', cursive;
 }}
 
@@ -135,13 +136,12 @@ html {
   grid-template-columns: 250px 1fr; 
 
 &__header {
-  font-size: 25px;
+  font-size: 32px;
   color: #30011E;
   margin-bottom: 25px;
   grid-area: header;
   font-family: 'Pacifico', cursive;
   &--pink {
-  color: #FF729F;
   }}}
 
 @media (max-width: 640px) {
@@ -169,12 +169,12 @@ color: rgb(173, 166, 169);
 }}
 &__list {
   list-style: none;
-  padding: 16px;
+  padding: 16px 16px;
   display: flex;
   justify-content: center;
-  background: #30011E;
+  align-content: center;
   width: 100%;
-  height: 50px;
+  height: 20px;
 }
 &__switcher {
 border: none;
