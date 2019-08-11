@@ -310,8 +310,9 @@ template {
   display: none; }
 
 body {
-  background: #d4d2d2;
-  font-family: 'Pacifico'; }
+  background: white;
+  font-family: 'Pacifico';
+  fontisize: 16px; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -329,7 +330,7 @@ html {
   position: relative;
   grid-area: about; }
   .about__header {
-    color: #0089be;
+    color: #FF729F;
     font-family: 'Pacifico', cursive; }
   .about__link {
     color: #f02f6c;
@@ -391,7 +392,7 @@ html {
 .diary {
   clear: both; }
   .diary__header {
-    color: #d88181;
+    color: #FF729F;
     font-family: 'Pacifico', cursive; }
 
 .focus:focus {
@@ -438,13 +439,11 @@ html {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
-    font-size: 25px;
+    font-size: 32px;
     color: #30011E;
     margin-bottom: 25px;
     grid-area: header;
     font-family: 'Pacifico', cursive; }
-    .main__header--pink {
-      color: #FF729F; }
 
 @media (max-width: 640px) {
   .main {
@@ -481,16 +480,17 @@ html {
 
 .navigation__list {
   list-style: none;
-  padding: 16px;
+  padding: 16px 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #30011E;
+  -ms-flex-line-pack: center;
+      align-content: center;
   width: 100%;
-  height: 50px; }
+  height: 20px; }
 
 .navigation__switcher {
   border: none;
