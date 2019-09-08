@@ -1,4 +1,4 @@
-![homepage screen](github/wyglad-strony.jpg)
+![homepage screen](github/wyglad-strony.JPG)
 
 # Moja strona główna
 Zapraszam: [Strona domowa do kursu WTF](https://github.com/kakuliniec/homepage-gulp)
