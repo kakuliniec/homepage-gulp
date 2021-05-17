@@ -1,6 +1,6 @@
 ![homepage screen](github/wyglad-strony.JPG)
 
-# Moja strona główna
+# Moja strona główna (pierwsza)
 Zapraszam: [Strona domowa do kursu WTF](https://github.com/kakuliniec/homepage-gulp)
 
 ## Jak uruchomić moją stronę lokalnie
